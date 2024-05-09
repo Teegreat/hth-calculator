@@ -33,7 +33,7 @@ const BoreholeForm = ({ onSubmit }) => {
           htmlFor=""
           className="block text-gray-700 text-sm font-bold mb-2"
         >
-          Depth (m)
+          Depth (meters)
         </label>
         <input
           type="number"
@@ -46,7 +46,7 @@ const BoreholeForm = ({ onSubmit }) => {
 
       <button
         type="submit"
-        className="w-full bg-orange-500 hover:bg-orange-700 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus: shadow-outline"
+        className="w-full bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-full focus:outline-none focus: shadow-outline"
       >
         Calculate
       </button>
