@@ -21,9 +21,16 @@ export default function Home() {
   return (
     <main className="flex w-full min-h-screen flex-col items-center justify-center px-2 bg-orange-400">
       <div className="container bg-white rounded-lg shadow-lg p-10 pl-12 w-full md:w-96 md:h-auto sm:mx-4">
-        <h1 className="text-2xl font-semibold mb-4">
-          Borehole Disinfection Calculator
-        </h1>
+        <div>
+          <h1 className="text-2xl text-black font-semibold mb-4">
+            Borehole Disinfection Calculator
+          </h1>
+          <p className="text-gray-700 pb-4">
+            Calculate the amount of HTH required
+          </p>
+
+          <hr />
+        </div>
 
         <BoreholeForm onSubmit={handleSubmit} />
         {hthRequired !== null && (
