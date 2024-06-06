@@ -20,7 +20,7 @@ export default function Home() {
 
   return (
     <main className="flex w-full min-h-screen flex-col items-center justify-center px-2 bg-orange-400">
-      <div className="container bg-white rounded-lg shadow-lg p-10 pl-12 w-full md:w-96 md:h-auto mx-auto sm:mx-4">
+      <div className="container bg-white rounded-lg shadow-lg p-10 pl-12 w-full md:w-96 xl:w-[450px] md:h-auto mx-auto sm:mx-4">
         <div>
           <h1 className="text-2xl text-black font-semibold mb-4">
             Borehole Disinfection Calculator
